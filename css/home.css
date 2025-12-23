@@ -40,3 +40,37 @@
     line-height: 1.8;
     margin-block-end: 30px;
 }
+
+
+
+/* Service */
+
+.service {
+    background-image: url("../images/partner-left-bg.png");
+    background-color: var(--shamrock-green);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-blend-mode: soft-light;
+}
+
+.service-list {
+    display: grid;
+    gap: 15px;
+}
+
+.item-icon {
+    background-color: var(--white_25);
+    max-width: max-content;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.item-title {
+    color: var(--white);
+}
