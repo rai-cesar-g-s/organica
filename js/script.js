@@ -55,3 +55,12 @@ for (let i = 0; i < panelBtns.length; i++) {
 
   });
 }
+
+// back to top
+
+const backTopBtn = document.querySelector("[data-back-top-btn");
+
+window.addEventListener("scroll", function() {
+  this.window.scrollY >= 100 ? backTopBtn.classList.add("active") 
+  : backTopBtn.classList.remove("active");
+});
